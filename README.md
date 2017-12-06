@@ -47,16 +47,21 @@ if(module.hot) {
 ```
 - PropTypes 관련 오류
 
-React 는 최근 [official Note](https://reactjs.org/docs/typechecking-with-proptypes.html) 에서 React.PropTypes 기능을 prop-types 라는 패키지로 분리했다고 한다.
+React 는 최근 [official Note](https://reactjs.org/docs/typechecking-with-proptypes.html) 에서 React.PropTypes 기능을 prop-types 라는 라이브러리로 분리했다고 한다.
 ```
 React.PropTypes has moved into a different package since React v15.5.
 Please use the prop-types library instead.
 ```
-따라서, 이 패키지를 설치하고 사용하면 된다.
+따라서, 이것을 설치해서 사용하면 된다.
 ```
 npm install --save prop-types
 
 // ContactCreate.js
+import React from 'react';
+import PropTypes from 'prop-types';
+
+...
+
 ContactCreate.propTypes = {
   // onCreate: React.PropTypes.func
   onCreate: PropTypes.func
