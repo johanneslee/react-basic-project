@@ -1,23 +1,16 @@
 import React from 'react';
+import Contact from './Contact';
 
-class App extends React.Component {
-  constructor(props) {
-      super(props);
-      this.state = {
-        name: ''
-      };
-  }
-
+export default class App extends React.Component {
   render() {
     return (
-      <div>
-        <button onClick={() => {this.setState({ name: 'Veloport' }); }}>Click Me</button>
-        <h1>Hello!!! {this.state.name}</h1>
-      </div>
+      <Contact/>
     );
   }
 }
 
 // in before es6
 // module.export = App;
-export default App;
+// in es6
+// export default App;
+// now use 'export default class App ~~'

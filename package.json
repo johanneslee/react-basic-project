@@ -1,5 +1,5 @@
 {
-  "name": "codelab-tut",
+  "name": "react-basic-template",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,12 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "This project helps starting react project",
   "dependencies": {
+    "babel-preset-stage-0": "^6.24.1",
+    "prop-types": "^15.6.0",
     "react": "^16.2.0",
+    "react-addons-update": "^15.6.2",
     "react-dom": "^16.2.0"
   },
   "devDependencies": {
@@ -21,5 +24,13 @@
     "react-hot-loader": "^3.1.3",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanneslee/react-basic-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johanneslee/react-basic-template/issues"
+  },
+  "homepage": "https://github.com/johanneslee/react-basic-template#readme"
 }
