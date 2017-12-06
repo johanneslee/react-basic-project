@@ -7,8 +7,8 @@ Velopert 님의 React 예제 프로젝트, Contact(주소록) 을 학습한 프�
 
 이제 babel 은 webpack 용으로 제공되는 플러그인 [babel-loader](https://github.com/babel/babel-loader) 을 적용하여 사용할 수 있다.  
 react-hot-loader 역시 webpack 용으로 제공되는 플러그인을 적용하여 사용할 수 있다.
+* webpack.config.js
 ```
-// webpack.config.js
 var webpack = require('webpack');
 module.exports = {
   entry: [
@@ -33,8 +33,9 @@ module.exports = {
 };
 
 ...
-
-// index.js
+```
+* index.js
+```
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
@@ -55,8 +56,9 @@ Please use the prop-types library instead.
 따라서, 이것을 설치해서 사용하면 된다.
 ```
 npm install --save prop-types
-
-// ContactCreate.js
+```
+* ContactCreate.js
+```
 import React from 'react';
 import PropTypes from 'prop-types';
 
