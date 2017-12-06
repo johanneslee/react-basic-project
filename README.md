@@ -1,4 +1,4 @@
-# react-basic-template
+# react-basic-project
 
 ## About
 Velopert 님의 React 예제 프로젝트, Contact(주소록) 을 학습한 프로젝트입니다.  
