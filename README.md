@@ -3,8 +3,8 @@
 ## About
 Velopert 님의 React 예제 프로젝트, Contact(주소록) 을 학습한 프로젝트입니다.  
 실습하면서 최신 버전의 모듈과의 호환성 문제들을 해결하였습니다.
-- babel-loader 와 react-hot-loader 오류 문제
 
+### babel-loader 와 react-hot-loader 오류 문제
 이제 babel 은 webpack 용으로 제공되는 플러그인 [babel-loader](https://github.com/babel/babel-loader) 을 적용하여 사용할 수 있다.  
 react-hot-loader 역시 webpack 용으로 제공되는 플러그인을 적용하여 사용할 수 있다.
 * webpack.config.js
@@ -46,8 +46,7 @@ if(module.hot) {
   module.hot.accept();
 }
 ```
-- PropTypes 관련 오류
-
+### PropTypes 관련 오류
 React 는 최근 [official Note](https://reactjs.org/docs/typechecking-with-proptypes.html) 에서 React.PropTypes 기능을 prop-types 라는 라이브러리로 분리했다고 한다.
 ```
 React.PropTypes has moved into a different package since React v15.5.
